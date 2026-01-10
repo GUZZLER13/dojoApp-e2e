@@ -8,7 +8,7 @@ on:
       target_url:
         description: 'Target URL to test'
         required: true
-        default: 'https://dojokai.com'
+        default: 'https://karate.guzzler-bot.cloud'
 
 jobs:
   run-e2e:

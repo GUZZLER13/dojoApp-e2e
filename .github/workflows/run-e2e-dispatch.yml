@@ -8,7 +8,7 @@ on:
       target_url:
         description: 'Target URL to test'
         required: true
-        default: 'https://dojokai.app'
+        default: 'https://dojokai.com'
 
 jobs:
   run-e2e:

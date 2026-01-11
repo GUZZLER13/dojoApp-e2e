@@ -42,7 +42,7 @@ test.describe('Gestion des Paiements - Workflow Utilisateur COMPLET', () => {
         await page.getByTestId('edit-plan-button').click();
         await page.getByTestId('plan-amount-input').fill('50');
         await page.getByTestId('plan-due-day-input').fill('1');
-        await page.getByTestId('save-plan-button').click();
+        await page.getByTestId('save-plan-confirm').click();
 
         // Attente de la balance
         console.log('Attente de la génération de la dette (50€)...');
